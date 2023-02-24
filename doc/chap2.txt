@@ -1,0 +1,14 @@
+  
+  [1X2 [33X[0;0YHeckeCategories automatic generated documentation[133X[101X
+  
+  
+  [1X2.1 [33X[0;0YHeckeCategories automatic generated documentation of attributes[133X[101X
+  
+  [1X2.1-1 UnderlyingEnvelopingRing[101X
+  
+  [33X[1;0Y[29X[2XUnderlyingEnvelopingRing[102X( [3Xarg[103X ) [32X attribute[133X
+  
+  [1X2.1-2 UnderlyingEnvelopingTwistingRingMap[101X
+  
+  [33X[1;0Y[29X[2XUnderlyingEnvelopingTwistingRingMap[102X( [3Xarg[103X ) [32X attribute[133X
+  

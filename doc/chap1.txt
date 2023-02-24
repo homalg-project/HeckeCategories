@@ -1,3 +1,154 @@
   
   [1X1 [33X[0;0YThe standard category[133X[101X
   
+  
+  [1X1.1 [33X[0;0YAttributes[133X[101X
+  
+  [1X1.1-1 UnderlyingMatrixGroup[101X
+  
+  [33X[1;0Y[29X[2XUnderlyingMatrixGroup[102X( [3Xarg[103X ) [32X attribute[133X
+  
+  [1X1.1-2 UnderlyingRing[101X
+  
+  [33X[1;0Y[29X[2XUnderlyingRing[102X( [3Xarg[103X ) [32X attribute[133X
+  
+  [1X1.1-3 UnderlyingTwistingRingMap[101X
+  
+  [33X[1;0Y[29X[2XUnderlyingTwistingRingMap[102X( [3Xarg[103X ) [32X attribute[133X
+  
+  [1X1.1-4 MatrixGroupElement[101X
+  
+  [33X[1;0Y[29X[2XMatrixGroupElement[102X( [3Xarg[103X ) [32X attribute[133X
+  
+  [1X1.1-5 UnderlyingRingElement[101X
+  
+  [33X[1;0Y[29X[2XUnderlyingRingElement[102X( [3Xarg[103X ) [32X attribute[133X
+  
+  
+  [1X1.2 [33X[0;0YConstructors[133X[101X
+  
+  [1X1.2-1 StandardCategory[101X
+  
+  [33X[1;0Y[29X[2XStandardCategory[102X( [3XW[103X, [3Xk[103X ) [32X operation[133X
+  
+  [33X[0;0YReturn the standard category over the commutative base ring [3Xk[103X.[133X
+  
+  [4X[32X  Example  [32X[104X
+    [4X[25Xgap>[125X [27XLoadPackage( "HeckeCategories" );[127X[104X
+    [4X[28Xtrue[128X[104X
+    [4X[25Xgap>[125X [27XW := Group( [[0,1,0],[1,0,0],[0,0,1]], [[1,0,0],[0,0,1],[0,1,0]] );[127X[104X
+    [4X[28XGroup([ [ [ 0, 1, 0 ], [ 1, 0, 0 ], [ 0, 0, 1 ] ],[128X[104X
+    [4X[28X        [ [ 1, 0, 0 ], [ 0, 0, 1 ], [ 0, 1, 0 ] ] ])[128X[104X
+    [4X[25Xgap>[125X [27Xk := HomalgFieldOfRationalsInSingular( );[127X[104X
+    [4X[28XQ[128X[104X
+    [4X[25Xgap>[125X [27XStd := StandardCategory( W, k );[127X[104X
+    [4X[28XStandardCategory( W, Q )[128X[104X
+    [4X[25Xgap>[125X [27XDisplay( Std );[127X[104X
+    [4X[28XA CAP category with name StandardCategory( W, Q ):[128X[104X
+    [4X[28X[128X[104X
+    [4X[28X20 primitive operations were used to derive 79 operations for this category[128X[104X
+    [4X[28Xwhich algorithmically[128X[104X
+    [4X[28X* IsEquippedWithHomomorphismStructure[128X[104X
+    [4X[28X* IsLinearCategoryOverCommutativeRing[128X[104X
+    [4X[28X* IsMonoidalCategory[128X[104X
+    [4X[28Xand furthermore mathematically[128X[104X
+    [4X[28X* IsStrictMonoidalCategory[128X[104X
+    [4X[25Xgap>[125X [27XR := UnderlyingRing( Std );[127X[104X
+    [4X[28XQ[a1,a2,a3][128X[104X
+    [4X[25Xgap>[125X [27XExportVariables( R );[127X[104X
+    [4X[28X[ a1, a2, a3 ][128X[104X
+    [4X[25Xgap>[125X [27Xx := [[0,1,0],[1,0,0],[0,0,1]];[127X[104X
+    [4X[28X[ [ 0, 1, 0 ], [ 1, 0, 0 ], [ 0, 0, 1 ] ][128X[104X
+    [4X[25Xgap>[125X [27Xrx := x / Std;[127X[104X
+    [4X[28X<An object in StandardCategory( W, Q )>[128X[104X
+    [4X[25Xgap>[125X [27XIsWellDefined( rx );[127X[104X
+    [4X[28Xtrue[128X[104X
+    [4X[25Xgap>[125X [27XDisplay( rx );[127X[104X
+    [4X[28X[ [ 0, 1, 0 ],[128X[104X
+    [4X[28X  [ 1, 0, 0 ],[128X[104X
+    [4X[28X  [ 0, 0, 1 ] ][128X[104X
+    [4X[25Xgap>[125X [27Xy := [[1,0,0],[0,0,1],[0,1,0]];[127X[104X
+    [4X[28X[ [ 1, 0, 0 ], [ 0, 0, 1 ], [ 0, 1, 0 ] ][128X[104X
+    [4X[25Xgap>[125X [27Xry := y / Std;[127X[104X
+    [4X[28X<An object in StandardCategory( W, Q )>[128X[104X
+    [4X[25Xgap>[125X [27Xrx = ry;[127X[104X
+    [4X[28Xfalse[128X[104X
+    [4X[25Xgap>[125X [27Xz := [ [ 0, 1, 0 ], [ 1, 0, 0 ], [ 0, 0, 2 ] ];[127X[104X
+    [4X[28X[ [ 0, 1, 0 ], [ 1, 0, 0 ], [ 0, 0, 2 ] ][128X[104X
+    [4X[25Xgap>[125X [27XIsWellDefined( z / Std );[127X[104X
+    [4X[28Xfalse[128X[104X
+    [4X[25Xgap>[125X [27Xrxy := TensorProduct( rx, ry );[127X[104X
+    [4X[28X<An object in StandardCategory( W, Q )>[128X[104X
+    [4X[25Xgap>[125X [27XDisplay( rxy );[127X[104X
+    [4X[28X[ [  0,  0,  1 ],[128X[104X
+    [4X[28X  [  1,  0,  0 ],[128X[104X
+    [4X[28X  [  0,  1,  0 ] ][128X[104X
+    [4X[25Xgap>[125X [27Xid_x := IdentityMorphism( rx );[127X[104X
+    [4X[28X<An identity morphism in StandardCategory( W, Q )>[128X[104X
+    [4X[25Xgap>[125X [27XDisplay( id_x );[127X[104X
+    [4X[28X1[128X[104X
+    [4X[25Xgap>[125X [27Xphi_x := MorphismConstructor( rx, a1 * a2, rx );[127X[104X
+    [4X[28X<A morphism in StandardCategory( W, Q )>[128X[104X
+    [4X[25Xgap>[125X [27XIsWellDefined( phi_x );[127X[104X
+    [4X[28Xtrue[128X[104X
+    [4X[25Xgap>[125X [27XDisplay( phi_x );[127X[104X
+    [4X[28Xa1*a2[128X[104X
+    [4X[25Xgap>[125X [27XIsOne( phi_x );[127X[104X
+    [4X[28Xfalse[128X[104X
+    [4X[25Xgap>[125X [27Xpsi_x := MorphismConstructor( rx, a2 * a1, rx );[127X[104X
+    [4X[28X<A morphism in StandardCategory( W, Q )>[128X[104X
+    [4X[25Xgap>[125X [27Xphi_x = psi_x;[127X[104X
+    [4X[28Xtrue[128X[104X
+    [4X[25Xgap>[125X [27XDisplay( PreCompose( phi_x, psi_x ) );[127X[104X
+    [4X[28Xa1^2*a2^2[128X[104X
+    [4X[25Xgap>[125X [27Xphi_y := MorphismConstructor( ry, a2 * a3, ry );[127X[104X
+    [4X[28X<A morphism in StandardCategory( W, Q )>[128X[104X
+    [4X[25Xgap>[125X [27Xphi_x = phi_y;[127X[104X
+    [4X[28Xfalse[128X[104X
+    [4X[25Xgap>[125X [27Xzeta_xy := ZeroMorphism( rx, ry );[127X[104X
+    [4X[28X<A zero morphism in StandardCategory( W, Q )>[128X[104X
+    [4X[25Xgap>[125X [27XDisplay( zeta_xy );[127X[104X
+    [4X[28X0[128X[104X
+    [4X[25Xgap>[125X [27Xzeta_xy = MorphismConstructor( rx, a1*a2, ry );[127X[104X
+    [4X[28Xtrue[128X[104X
+    [4X[25Xgap>[125X [27Xeta_x := a3 * phi_x;[127X[104X
+    [4X[28X<A morphism in StandardCategory( W, Q )>[128X[104X
+    [4X[25Xgap>[125X [27XDisplay( eta_x );[127X[104X
+    [4X[28Xa1*a2*a3[128X[104X
+    [4X[25Xgap>[125X [27Xchi_xy := TensorProduct( phi_x, phi_y );[127X[104X
+    [4X[28X<A morphism in StandardCategory( W, Q )>[128X[104X
+    [4X[25Xgap>[125X [27XDisplay( chi_xy );[127X[104X
+    [4X[28Xa1^2*a2*a3[128X[104X
+  [4X[32X[104X
+  
+  
+  [1X1.3 [33X[0;0YGAP categories[133X[101X
+  
+  [1X1.3-1 IsStandardCategory[101X
+  
+  [33X[1;0Y[29X[2XIsStandardCategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of standard categories.[133X
+  
+  [1X1.3-2 IsCellInStandardCategory[101X
+  
+  [33X[1;0Y[29X[2XIsCellInStandardCategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of cells in a standard category.[133X
+  
+  [1X1.3-3 IsObjectInStandardCategory[101X
+  
+  [33X[1;0Y[29X[2XIsObjectInStandardCategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of objects in a standard category.[133X
+  
+  [1X1.3-4 IsMorphismInStandardCategory[101X
+  
+  [33X[1;0Y[29X[2XIsMorphismInStandardCategory[102X( [3Xarg[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of morphisms in a standard category.[133X
+  

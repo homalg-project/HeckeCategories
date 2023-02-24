@@ -15,22 +15,213 @@
 <body class="chap1"  onload="jscontent()">
 
 
-<div class="chlinktop"><span class="chlink1">Goto Chapter: </span><a href="chap0.html">Top</a>  <a href="chap1.html">1</a>  <a href="chapInd.html">Ind</a>  </div>
+<div class="chlinktop"><span class="chlink1">Goto Chapter: </span><a href="chap0.html">Top</a>  <a href="chap1.html">1</a>  <a href="chap2.html">2</a>  <a href="chapInd.html">Ind</a>  </div>
 
-<div class="chlinkprevnexttop">&nbsp;<a href="chap0.html">[Top of Book]</a>&nbsp;  <a href="chap0.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap0.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chapInd.html">[Next Chapter]</a>&nbsp;  </div>
+<div class="chlinkprevnexttop">&nbsp;<a href="chap0.html">[Top of Book]</a>&nbsp;  <a href="chap0.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap0.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap2.html">[Next Chapter]</a>&nbsp;  </div>
 
 <p id="mathjaxlink" class="pcenter"><a href="chap1_mj.html">[MathJax on]</a></p>
 <p><a id="X849CAD008464C6BB" name="X849CAD008464C6BB"></a></p>
 <div class="ChapSects"><a href="chap1.html#X849CAD008464C6BB">1 <span class="Heading">The standard category</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap1.html#X7C701DBF7BAE649A">1.1 <span class="Heading">Attributes</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X7E57592A87ECDB1C">1.1-1 UnderlyingMatrixGroup</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X806FF0E07EF89964">1.1-2 UnderlyingRing</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X7B7151B78351AEF5">1.1-3 UnderlyingTwistingRingMap</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X7A09D7447C28192D">1.1-4 MatrixGroupElement</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X8640A91F78275506">1.1-5 UnderlyingRingElement</a></span>
+</div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap1.html#X86EC0F0A78ECBC10">1.2 <span class="Heading">Constructors</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X7EE044CE78A17667">1.2-1 StandardCategory</a></span>
+</div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap1.html#X7D03633A7D98026B">1.3 <span class="Heading">GAP categories</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X7D7B91C886B154A1">1.3-1 IsStandardCategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X80281F277931E2AA">1.3-2 IsCellInStandardCategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X7FC3E9FB7879B8EB">1.3-3 IsObjectInStandardCategory</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap1.html#X7BE33C4F879B1733">1.3-4 IsMorphismInStandardCategory</a></span>
+</div></div>
 </div>
 
 <h3>1 <span class="Heading">The standard category</span></h3>
 
+<p><a id="X7C701DBF7BAE649A" name="X7C701DBF7BAE649A"></a></p>
 
-<div class="chlinkprevnextbot">&nbsp;<a href="chap0.html">[Top of Book]</a>&nbsp;  <a href="chap0.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap0.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chapInd.html">[Next Chapter]</a>&nbsp;  </div>
+<h4>1.1 <span class="Heading">Attributes</span></h4>
+
+<p><a id="X7E57592A87ECDB1C" name="X7E57592A87ECDB1C"></a></p>
+
+<h5>1.1-1 UnderlyingMatrixGroup</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; UnderlyingMatrixGroup</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X806FF0E07EF89964" name="X806FF0E07EF89964"></a></p>
+
+<h5>1.1-2 UnderlyingRing</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; UnderlyingRing</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X7B7151B78351AEF5" name="X7B7151B78351AEF5"></a></p>
+
+<h5>1.1-3 UnderlyingTwistingRingMap</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; UnderlyingTwistingRingMap</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X7A09D7447C28192D" name="X7A09D7447C28192D"></a></p>
+
+<h5>1.1-4 MatrixGroupElement</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; MatrixGroupElement</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X8640A91F78275506" name="X8640A91F78275506"></a></p>
+
+<h5>1.1-5 UnderlyingRingElement</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; UnderlyingRingElement</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p><a id="X86EC0F0A78ECBC10" name="X86EC0F0A78ECBC10"></a></p>
+
+<h4>1.2 <span class="Heading">Constructors</span></h4>
+
+<p><a id="X7EE044CE78A17667" name="X7EE044CE78A17667"></a></p>
+
+<h5>1.2-1 StandardCategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; StandardCategory</code>( <var class="Arg">W</var>, <var class="Arg">k</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Return the standard category over the commutative base ring <var class="Arg">k</var>.</p>
 
 
-<div class="chlinkbot"><span class="chlink1">Goto Chapter: </span><a href="chap0.html">Top</a>  <a href="chap1.html">1</a>  <a href="chapInd.html">Ind</a>  </div>
+<div class="example"><pre>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">LoadPackage( "HeckeCategories" );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">W := Group( [[0,1,0],[1,0,0],[0,0,1]], [[1,0,0],[0,0,1],[0,1,0]] );</span>
+Group([ [ [ 0, 1, 0 ], [ 1, 0, 0 ], [ 0, 0, 1 ] ],
+        [ [ 1, 0, 0 ], [ 0, 0, 1 ], [ 0, 1, 0 ] ] ])
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">k := HomalgFieldOfRationalsInSingular( );</span>
+Q
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Std := StandardCategory( W, k );</span>
+StandardCategory( W, Q )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( Std );</span>
+A CAP category with name StandardCategory( W, Q ):
+
+20 primitive operations were used to derive 79 operations for this category
+which algorithmically
+* IsEquippedWithHomomorphismStructure
+* IsLinearCategoryOverCommutativeRing
+* IsMonoidalCategory
+and furthermore mathematically
+* IsStrictMonoidalCategory
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">R := UnderlyingRing( Std );</span>
+Q[a1,a2,a3]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ExportVariables( R );</span>
+[ a1, a2, a3 ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">x := [[0,1,0],[1,0,0],[0,0,1]];</span>
+[ [ 0, 1, 0 ], [ 1, 0, 0 ], [ 0, 0, 1 ] ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">rx := x / Std;</span>
+&lt;An object in StandardCategory( W, Q )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( rx );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( rx );</span>
+[ [ 0, 1, 0 ],
+  [ 1, 0, 0 ],
+  [ 0, 0, 1 ] ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">y := [[1,0,0],[0,0,1],[0,1,0]];</span>
+[ [ 1, 0, 0 ], [ 0, 0, 1 ], [ 0, 1, 0 ] ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ry := y / Std;</span>
+&lt;An object in StandardCategory( W, Q )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">rx = ry;</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">z := [ [ 0, 1, 0 ], [ 1, 0, 0 ], [ 0, 0, 2 ] ];</span>
+[ [ 0, 1, 0 ], [ 1, 0, 0 ], [ 0, 0, 2 ] ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( z / Std );</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">rxy := TensorProduct( rx, ry );</span>
+&lt;An object in StandardCategory( W, Q )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( rxy );</span>
+[ [  0,  0,  1 ],
+  [  1,  0,  0 ],
+  [  0,  1,  0 ] ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">id_x := IdentityMorphism( rx );</span>
+&lt;An identity morphism in StandardCategory( W, Q )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( id_x );</span>
+1
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">phi_x := MorphismConstructor( rx, a1 * a2, rx );</span>
+&lt;A morphism in StandardCategory( W, Q )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( phi_x );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( phi_x );</span>
+a1*a2
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsOne( phi_x );</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">psi_x := MorphismConstructor( rx, a2 * a1, rx );</span>
+&lt;A morphism in StandardCategory( W, Q )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">phi_x = psi_x;</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( PreCompose( phi_x, psi_x ) );</span>
+a1^2*a2^2
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">phi_y := MorphismConstructor( ry, a2 * a3, ry );</span>
+&lt;A morphism in StandardCategory( W, Q )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">phi_x = phi_y;</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">zeta_xy := ZeroMorphism( rx, ry );</span>
+&lt;A zero morphism in StandardCategory( W, Q )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( zeta_xy );</span>
+0
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">zeta_xy = MorphismConstructor( rx, a1*a2, ry );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">eta_x := a3 * phi_x;</span>
+&lt;A morphism in StandardCategory( W, Q )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( eta_x );</span>
+a1*a2*a3
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">chi_xy := TensorProduct( phi_x, phi_y );</span>
+&lt;A morphism in StandardCategory( W, Q )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( chi_xy );</span>
+a1^2*a2*a3
+</pre></div>
+
+<p><a id="X7D03633A7D98026B" name="X7D03633A7D98026B"></a></p>
+
+<h4>1.3 <span class="Heading">GAP categories</span></h4>
+
+<p><a id="X7D7B91C886B154A1" name="X7D7B91C886B154A1"></a></p>
+
+<h5>1.3-1 IsStandardCategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsStandardCategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of standard categories.</p>
+
+<p><a id="X80281F277931E2AA" name="X80281F277931E2AA"></a></p>
+
+<h5>1.3-2 IsCellInStandardCategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsCellInStandardCategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of cells in a standard category.</p>
+
+<p><a id="X7FC3E9FB7879B8EB" name="X7FC3E9FB7879B8EB"></a></p>
+
+<h5>1.3-3 IsObjectInStandardCategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsObjectInStandardCategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of objects in a standard category.</p>
+
+<p><a id="X7BE33C4F879B1733" name="X7BE33C4F879B1733"></a></p>
+
+<h5>1.3-4 IsMorphismInStandardCategory</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsMorphismInStandardCategory</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of morphisms in a standard category.</p>
+
+
+<div class="chlinkprevnextbot">&nbsp;<a href="chap0.html">[Top of Book]</a>&nbsp;  <a href="chap0.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap0.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap2.html">[Next Chapter]</a>&nbsp;  </div>
+
+
+<div class="chlinkbot"><span class="chlink1">Goto Chapter: </span><a href="chap0.html">Top</a>  <a href="chap1.html">1</a>  <a href="chap2.html">2</a>  <a href="chapInd.html">Ind</a>  </div>
 
 <hr />
 <p class="foot">generated by <a href="http://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc">GAPDoc2HTML</a></p>

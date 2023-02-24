@@ -2,6 +2,18 @@
   
   [1XIndex[101X
   
+  [2XIsCellInStandardCategory[102X, for IsCapCategoryCell 1.3-2 
+  [2XIsMorphismInStandardCategory[102X, for IsCellInStandardCategory and IsCapCategoryMorphism 1.3-4 
+  [2XIsObjectInStandardCategory[102X, for IsCellInStandardCategory and IsCapCategoryObject 1.3-3 
+  [2XIsStandardCategory[102X, for IsCapCategory 1.3-1 
+  [2XMatrixGroupElement[102X, for IsObjectInStandardCategory 1.1-4 
+  [2XStandardCategory[102X, for IsGroup, IsHomalgRing 1.2-1 
+  [2XUnderlyingEnvelopingRing[102X, for IsStandardCategory 2.1-1 
+  [2XUnderlyingEnvelopingTwistingRingMap[102X, for IsStandardCategory 2.1-2 
+  [2XUnderlyingMatrixGroup[102X, for IsStandardCategory 1.1-1 
+  [2XUnderlyingRing[102X, for IsStandardCategory 1.1-2 
+  [2XUnderlyingRingElement[102X, for IsMorphismInStandardCategory 1.1-5 
+  [2XUnderlyingTwistingRingMap[102X, for IsStandardCategory 1.1-3 
   
   
   -------------------------------------------------------
