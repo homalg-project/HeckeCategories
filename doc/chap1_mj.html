@@ -154,26 +154,54 @@ true
 a1*a2
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsOne( phi_x );</span>
 false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( 2 * a1 * phi_x );</span>
+2*a1^2*a2
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( -phi_x );</span>
+-a1*a2
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">psi_x := MorphismConstructor( rx, a2 * a1, rx );</span>
 &lt;A morphism in StandardCategory( W, Q )&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">phi_x = psi_x;</span>
 true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( phi_x - psi_x );</span>
+0
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( PreCompose( phi_x, psi_x ) );</span>
 a1^2*a2^2
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">phi_y := MorphismConstructor( ry, a2 * a3, ry );</span>
 &lt;A morphism in StandardCategory( W, Q )&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">phi_x = phi_y;</span>
 false
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">zeta_xy := ZeroMorphism( rx, ry );</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">zero_xy := ZeroMorphism( rx, ry );</span>
 &lt;A zero morphism in StandardCategory( W, Q )&gt;
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( zeta_xy );</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( zero_xy );</span>
 0
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">zeta_xy = MorphismConstructor( rx, a1*a2, ry );</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">zeta_xy := MorphismConstructor( rx, a1*a2, ry );</span>
+&lt;A morphism in StandardCategory( W, Q )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsZero( zeta_xy );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsEqualForMorphisms( zero_xy, zeta_xy );</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsCongruentForMorphisms( zero_xy, zeta_xy );</span>
 true
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">eta_x := a3 * phi_x;</span>
 &lt;A morphism in StandardCategory( W, Q )&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( eta_x );</span>
 a1*a2*a3
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">end_x := BasisOfExternalHom( rx, rx );</span>
+[ &lt;An identity morphism in StandardCategory( W, Q )&gt; ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( end_x[1] );</span>
+1
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">CoefficientsOfMorphism( eta_x );</span>
+[ a1*a2*a3 ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">BasisOfExternalHom( rx, ry );</span>
+[ ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">CoefficientsOfMorphism( zeta_xy );</span>
+[ ]
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">I := TensorUnit( Std );</span>
+&lt;An object in StandardCategory( W, Q )&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( I );</span>
+[ [ 1, 0, 0 ],
+  [ 0, 1, 0 ],
+  [ 0, 0, 1 ] ]
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">chi_xy := TensorProduct( phi_x, phi_y );</span>
 &lt;A morphism in StandardCategory( W, Q )&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( chi_xy );</span>
