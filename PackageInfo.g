@@ -10,9 +10,9 @@ SetPackageInfo( rec(
 
 PackageName := "HeckeCategories",
 Subtitle := "Categorification of Hecke algebras",
-Version := "2023.12-02",
+Version := "2024.09-01",
 
-Date := "2023-12-13",
+Date := "2024-09-08",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -104,7 +104,7 @@ Dependencies := rec(
   GAP := ">= 4.12.1",
   NeededOtherPackages := [
                 [ "RingsForHomalg", ">= 2023.02-02" ],
-                [ "CAP", ">= 2023.12-09" ],
+                [ "CAP", ">= 2024.09-05" ],
                 [ "MonoidalCategories", ">= 2023.02-04" ],
                 [ "FreydCategoriesForCAP", ">= 2023.02-01" ],
                 ],
