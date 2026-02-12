@@ -10,7 +10,7 @@ SetPackageInfo( rec(
 
 PackageName := "HeckeCategories",
 Subtitle := "Categorification of Hecke algebras",
-Version := "2026.02-01",
+Version := "2026.02-02",
 
 Date := "2026-02-12",
 License := "GPL-2.0-or-later",
