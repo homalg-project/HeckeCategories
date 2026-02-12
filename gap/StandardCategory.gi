@@ -25,6 +25,7 @@ InstallMethodWithCache( StandardCategory,
     end;
     
     if HasName( W ) then
+        # COVERAGE_IGNORE_NEXT_LINE
         name := Name( W );
     else
         name := "W";
@@ -32,11 +33,12 @@ InstallMethodWithCache( StandardCategory,
     
     name := Concatenation( "StandardCategory( ", name, ", ", RingName( k ), " )" );
     
-    Std := CreateCapCategory( name,
-                   IsStandardCategory,
-                   IsObjectInStandardCategory,
-                   IsMorphismInStandardCategory,
-                   IsCapCategoryTwoCell );
+    Std :=
+      CreateCapCategory( name,
+              IsStandardCategory,
+              IsObjectInStandardCategory,
+              IsMorphismInStandardCategory,
+              IsCapCategoryTwoCell );
     
     SetUnderlyingMatrixGroup( Std, W );
     SetUnderlyingRing( Std, R );
