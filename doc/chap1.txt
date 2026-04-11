@@ -154,28 +154,28 @@
   
   [1X1.3-1 IsStandardCategory[101X
   
-  [33X[1;0Y[29X[2XIsStandardCategory[102X( [3Xarg[103X ) [32X filter[133X
+  [33X[1;0Y[29X[2XIsStandardCategory[102X( [3Xarg[103X ) [32X Category[133X
   [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of standard categories.[133X
   
   [1X1.3-2 IsCellInStandardCategory[101X
   
-  [33X[1;0Y[29X[2XIsCellInStandardCategory[102X( [3Xarg[103X ) [32X filter[133X
+  [33X[1;0Y[29X[2XIsCellInStandardCategory[102X( [3Xarg[103X ) [32X Category[133X
   [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of cells in a standard category.[133X
   
   [1X1.3-3 IsObjectInStandardCategory[101X
   
-  [33X[1;0Y[29X[2XIsObjectInStandardCategory[102X( [3Xarg[103X ) [32X filter[133X
+  [33X[1;0Y[29X[2XIsObjectInStandardCategory[102X( [3Xarg[103X ) [32X Category[133X
   [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of objects in a standard category.[133X
   
   [1X1.3-4 IsMorphismInStandardCategory[101X
   
-  [33X[1;0Y[29X[2XIsMorphismInStandardCategory[102X( [3Xarg[103X ) [32X filter[133X
+  [33X[1;0Y[29X[2XIsMorphismInStandardCategory[102X( [3Xarg[103X ) [32X Category[133X
   [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of morphisms in a standard category.[133X

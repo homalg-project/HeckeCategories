@@ -1,7 +1,7 @@
 name: HeckeCategories
-version: "2026.02-02"
+version: "2026.04-01"
 license: "GPL-2.0-or-later"
-date: 2026-02-12
+date: 2026-04-11
 description: |
     Categorification of Hecke algebras
 
@@ -28,13 +28,13 @@ needed-pkgs:
       version: ">= 2023.02-02"
       url: "https://homalg-project.github.io/pkg/RingsForHomalg"
     - name: "CAP"
-      version: ">= 2026.02-01"
+      version: ">= 2026.04-01"
       url: "https://homalg-project.github.io/pkg/CAP"
     - name: "MonoidalCategories"
       version: ">= 2023.02-04"
       url: "https://homalg-project.github.io/pkg/MonoidalCategories"
     - name: "FreydCategoriesForCAP"
-      version: ">= 2023.02-01"
+      version: ">= 2026.04-01"
       url: "https://homalg-project.github.io/pkg/FreydCategoriesForCAP"
 
 www: https://homalg-project.github.io/pkg/HeckeCategories
@@ -43,11 +43,11 @@ packageinfo: https://homalg-project.github.io/HeckeCategories/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/HeckeCategories/releases/download/v2026.02-02/HeckeCategories-2026.02-02.tar.gz
+      url: https://github.com/homalg-project/HeckeCategories/releases/download/v2026.04-01/HeckeCategories-2026.04-01.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/HeckeCategories/releases/download/v2026.02-02/HeckeCategories-2026.02-02.zip
+      url: https://github.com/homalg-project/HeckeCategories/releases/download/v2026.04-01/HeckeCategories-2026.04-01.zip
 
-pdf: https://github.com/homalg-project/HeckeCategories/releases/download/v2026.02-02/HeckeCategories-2026.02-02-manual.pdf
+pdf: https://github.com/homalg-project/HeckeCategories/releases/download/v2026.04-01/HeckeCategories-2026.04-01-manual.pdf
 
 abstract: |
 
@@ -56,10 +56,10 @@ doc-html: doc/chap0.html
 doc-pdf: doc/manual.pdf
 citeas: |
     <p class='BibEntry'>
-    [<span class='BibKey'>BJF12</span>]   <b class='BibAuthor'>Barakat, M., Juteau, D. and de la Fuente, D.</b>,
+    [<span class='BibKey'>BJF11</span>]   <b class='BibAuthor'>Barakat, M., Juteau, D. and de la Fuente, D.</b>,
      <i class='BibTitle'>HeckeCategories, Categorification of Hecke algebras,
-             Version 2026.02-02</i>
-     (<span class='BibYear'>2-12</span>)<br />
+             Version 2026.04-01</i>
+     (<span class='BibYear'>4-11</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/HeckeCategories">https://homalg-project.github.io/pkg/HeckeCategories</a></span>.
     </p>
@@ -69,15 +69,15 @@ bibtex: |
     @misc{ HeckeCategories,
       author =           {Barakat, M. and Juteau, D. and de la Fuente, D.},
       title =            {{HeckeCategories},    {Categorification    of    Hecke
-                          algebras}, {V}ersion 2026.02\texttt{\symbol{45}}02},
+                          algebras}, {V}ersion 2026.04\texttt{\symbol{45}}01},
       month =            {6\texttt{\symbol{45}}},
-      year =             {2\texttt{\symbol{45}}12},
+      year =             {4\texttt{\symbol{45}}11},
       note =             {GAP package},
       howpublished =     {\href
                           {https://homalg-project.github.io/pkg/HeckeCategories}
                           {\texttt{https://homalg\texttt{\symbol{45}}project.github.io/}\discretionary
                           {}{}{}\texttt{pkg/}\discretionary
                           {}{}{}\texttt{HeckeCategories}}},
-      printedkey =       {BJF12}
+      printedkey =       {BJF11}
     }
 
