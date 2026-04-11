@@ -50,7 +50,7 @@ InstallMethodWithCache( StandardCategory,
     
     SetIsAbCategory( Std, true );
     SetIsLinearCategoryOverCommutativeRingWithFinitelyGeneratedFreeExternalHoms( Std, true );
-    SetCommutativeRingOfLinearCategory( Std, R );
+    SetCommutativeSemiringOfLinearCategory( Std, R );
     
     SetRangeCategoryOfHomomorphismStructure( Std, V );
     SetIsEquippedWithHomomorphismStructure( Std, true );
@@ -185,7 +185,7 @@ InstallMethodWithCache( StandardCategory,
         
     end );
     
-    AddMultiplyWithElementOfCommutativeRingForMorphisms( Std,
+    AddMultiplyWithElementOfCommutativeSemiringForMorphisms( Std,
       function( cat, f, mor )
         
         return MorphismConstructor( cat,
